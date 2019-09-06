@@ -1,0 +1,143 @@
+body {
+    margin: 0; 
+  }
+  
+  .responsive-nav-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px;
+  }
+
+  .header {
+      text-align: center;
+      font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+      font-size : 20px;
+  }
+
+ .container{
+    margin-top:5%;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: solid 1px;
+    border-color: aliceblue;
+    border-radius:5px;
+    padding: 10px;
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+
+ }
+
+.username-label{
+   margin-right:10px;
+  
+
+}
+
+.input{
+    border-radius: 5px;
+     width: 100%;
+     height: 40px;
+     padding-left: 5px;
+     
+ }
+
+
+
+.continue-button{
+     width: 100%;
+     height: 50px;
+     background-color: black;
+     color: white;
+     font-size: 20px;
+     border:none;
+     border-radius: 5px;
+ }
+
+ .continue-button:hover{
+     cursor:pointer;
+    background-color: rgba(70, 69, 69, 0.466);
+
+ }
+
+
+
+ /* Footer */
+
+ .footer {
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color:white;
+    border-top: solid 1px;
+    text-align: center;
+   
+  }
+
+.icon-box{
+    display: flex;
+   
+  
+    margin-top: 10px;
+    align-items:center;
+    justify-content: center;
+   
+} 
+
+
+.icon-box i{
+   margin-left: 10px;
+   margin-right: 10px;
+   transition: transform .2s;
+  
+   
+   
+}
+
+.icon-box i:hover{
+    transform: scale(1.5);
+}
+  
+
+.footer{
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+.footer-logo{
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 10px;
+    width:100px;
+}
+  .footer-list li{
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    margin-right: 20px;
+  }
+
+  .footer-list li:hover{
+      cursor:pointer;
+      text-decoration: underline;
+  }
+
+.copy-rights{
+    font-size: 10px;
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;}
+
+
+ @media only screen and (max-width: 1000px) {
+    .container{
+        margin-top:5%;
+        margin-left: 30%;
+        margin-right: 30%;
+        border: solid 1px;
+        border-color: aliceblue;
+        border-radius:5px;
+        padding: 10px;
+        font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    
+     }
+ }
