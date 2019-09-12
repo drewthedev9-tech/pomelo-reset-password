@@ -9,6 +9,59 @@ body {
     border-bottom: solid 1px;
   }
 
+  .logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 180px;
+   }
+   
+   .nav-container {
+     display: flex;
+     margin-top: 0;
+     justify-content: center;
+     height: 8vh;
+     background-color: white;
+     align-items: center; 
+     border-bottom: solid 1px;
+   }
+   
+   .nav-items li {
+     display: inline-flex;
+     flex: wrap;
+     list-style: none;
+     margin: 10px;
+     text-transform: uppercase;
+     font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+     font-weight: bold;
+     color: black;
+     cursor: pointer; 
+     
+   }
+   
+
+  /* side nav to not appear */
+.responsive-nav-pic{
+    display: none;
+    border-bottom: solid 1px;
+  }
+  
+  .main-header {
+    height: 18vh; }
+  
+  .burger-open {
+    display: none; }
+  
+  .burger-close {
+    display: none; }
+  
+  .sidebar-list li {
+    display: none; }
+  
+  .sidebar-main {
+    margin: 0; }
+  /* //////////////////// */
+
   .header {
       text-align: center;
       font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
@@ -140,4 +193,72 @@ body {
         font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
     
      }
+
+      /* Responsive nav */
+    .nav-container {
+        display: none; }
+      .nav-items li {
+        display: none; }
+      .responsive-nav-pic{
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+  
+      }
+      .burger-open {
+        display: block;
+        font-size: 20px;
+        cursor: pointer;
+        color: black;
+        margin-top:15px;
+        padding: 10px 15px;
+        border: none;
+        margin-top: none;
+        position: absolute;
+        top: 8px;
+        left: 16px; 
+      }
+  
+      .burger-close {
+        margin-top:15px;
+        display: inline-block;
+        font-size: 20px;
+        cursor: pointer;
+        color: black;
+        padding: 10px 15px;
+        border: none;
+        margin-top: none;
+        position: absolute;
+        top: 8px;
+        left: 16px; 
+      }
+  
+      .sidebar-main {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        opacity: .8;
+        background-color: #012944;
+        overflow-x: hidden;
+        transition: 0.3s; 
+      }
+  
+      .sidebar-list li {
+       margin-top:15px;
+        margin-left: 15px;
+        padding: 20px;
+        display: block;
+        color: white;
+        text-transform: uppercase;
+        font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+        font-weight: bold;
+        color: white;
+        cursor: pointer; } 
+      
+  }
+
+     
  }

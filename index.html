@@ -2,22 +2,49 @@
 <html lang="en">
 <head>
         <link rel="stylesheet" href="./style.css">
-        <script src="./javascript/login.js"></script>
+        <script src="./recover.js"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <title>Reset password</title>
 </head>
 <body>
     
-  
+    <div class="nav-container">
+        <img class="logo" src="img/pomelo-logo.png">
+        <ul class="nav-items">
+                <li href="#">Inside Pomelo</li>
+                <li href="#">Settings</li>
+                <li href="#">Account/Upgrade</li>
+                <li href="#">Support</li>
+                <li href="#">LOG OUT</li>
+            </ul>
+    
+    </div>
+    <!-- responsive NAV -->
+    <div class="responsive-nav-pic">
+            <img class="logo" src="img/pomelo-logo.png"/> 
+        </div> 
+        
+            <div class='burger-open' onClick="openNav()">
+                <i class="fas fa-bars hamburger"></i>
+            </div>
+                <div id="sidebar" class="sidebar-main">
+                    <div class='burger-close' onClick="closeNav()">
+                        <i class="fas fa-bars hamburger"></i>
+                    </div>
+                         <ul id="sidebar-items" class="sidebar-list">
+                                <li href="#">Inside Pomelo</li>
+                                <li href="#">Settings</li>
+                                <li href="#">Account/Upgrade</li>
+                                <li href="#">Support</li>
+                                <li href="#">LOG OUT</li>
+                             </ul>
+                </div>
+        <!-- ------------------------------------------ -->
   
     
     
     </div>
-   <!-- responsive NAV -->
-   <div class="responsive-nav-pic">
-    <img class="logo" src="img/pomelo-logo.png"/> 
-    </div> 
-
+   
     <div class="container">
         <h1 class="header">Reset your password</h1>
         <p class="reset-heading">Enter the email you use for your Pomelo Account</p>
