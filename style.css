@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: solid 1px;
+   
   }
 
   .logo{
@@ -23,7 +23,7 @@ body {
      height: 8vh;
      background-color: white;
      align-items: center; 
-     border-bottom: solid 1px;
+    
    }
    
    .nav-items li {
@@ -43,7 +43,7 @@ body {
   /* side nav to not appear */
 .responsive-nav-pic{
     display: none;
-    border-bottom: solid 1px;
+   
   }
   
   .main-header {
