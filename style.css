@@ -261,4 +261,9 @@ body {
   }
 
      
- }
+  @media only screen and (max-width: 400px) {
+    .container{
+      margin-left:10%;
+      margin-right:10%;
+    }
+  }
