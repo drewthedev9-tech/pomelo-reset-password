@@ -6,10 +6,15 @@
   }
 
   .logo{
-    margin-top: 20px;
+    margin-top: 10px;
+    
+   
+   }
+
+   .logo-responsive{
+    margin-top: 10px;
     margin-bottom: 20px;
-    border-radius: 5px;
-    width: 180px;
+   
    }
    
    .nav-container {
@@ -103,8 +108,7 @@
 .footer-logo{
     margin-top: 5px;
     border-radius: 5px;
-    font-size: 10px;
-    width:100px;
+   
 }
   .footer-list li{
     display: inline-flex;
