@@ -7,13 +7,15 @@
 
   .logo{
     margin-top: 10px;
-    
+    width:123px;
    
    }
 
    .logo-responsive{
     margin-top: 10px;
     margin-bottom: 20px;
+    width:123px;
+    
    
    }
    
@@ -37,8 +39,7 @@
      font-weight: bold;
      color: black;
      cursor: pointer; 
-     
-   }
+    }
    
 
   /* side nav to not appear */
