@@ -67,20 +67,18 @@
 
  .footer {
     position:absolute;
-    left: 0;
-    bottom: 0;
+   bottom:0;
     width: 100%;
     background-color:black;
     color:white;
     border-top: solid 1px;
     text-align: center;
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
    
   }
 
 .icon-box{
     display: flex;
-   
-  
     margin-top: 10px;
     align-items:center;
     justify-content: center;
@@ -92,18 +90,10 @@
    margin-left: 10px;
    margin-right: 10px;
    transition: transform .2s;
-  
-   
-   
 }
 
 .icon-box i:hover{
     transform: scale(1.5);
-}
-  
-
-.footer{
-    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
 .footer-logo{
