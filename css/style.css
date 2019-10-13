@@ -11,6 +11,18 @@ body {
       font-size : 20px;
   }
 
+  .logout-message{
+   font-size: 30px;
+   text-align: center;
+   margin:0;
+   font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+   color:black;
+   background-color:yellowgreen;
+   border-radius: 4px;
+ }
+ 
+
+
  .container{
     margin-top:5%;
     margin-left: 40%;
