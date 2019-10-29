@@ -1,6 +1,6 @@
 html,body{
   margin:0;
-  padding:0;
+  margin-top:15px;
   height:100%;
   display:flex;
   flex-direction:column;
@@ -30,6 +30,7 @@ html,body{
   .logo{
    
     width:128px;
+    height:80px;
    }
 
 .logo-responsive{
@@ -37,6 +38,7 @@ html,body{
     margin-bottom: 20px;
     border-radius: 5px;
     width:128px;
+    height:80px;
    }
 
    .nav-container {
@@ -130,6 +132,10 @@ html,body{
       font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;}
 
     @media only screen and (max-width: 1000px) {
+
+      html,body{
+        margin-top: 0;
+      }
         /* Responsive nav */
         .nav-container {
           display: none; }
@@ -141,13 +147,14 @@ html,body{
         }
     
         .sticky-bar{
+          
           position:fixed;
           width:100%;
           background-color: white;
         }
     
         .main-container{
-          padding-top:15vh;
+          padding-top:100px;
         }
     
     
